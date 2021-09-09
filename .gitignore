@@ -2,7 +2,11 @@
 !jest.config.js
 *.d.ts
 node_modules
+.idea
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# build of lambda code
+lambda/converter/target
